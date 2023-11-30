@@ -2,11 +2,11 @@
 <launch>
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
   <!-- Controller Launches. Beyondtesla control and CBF -->
-  <node pkg="Beyondtesla" type="Beyondtesla" name="Beyondtesla" output="screen">
+  <node pkg="beyondtesla" type="beyondtesla" name="beyondtesla" output="screen">
 		<remap from="/cmd_accel" to="/cmd_accel_pre"/>
 	</node>
 <!-- CBF params -->
-  <arg name="description" default="cbf_codegen_test"/>
+  <arg name="description" default="beyondtesla"/>
 
 	<arg name="margin" default="30.0"/>
 	<arg name="use_margin" default="false"/>
