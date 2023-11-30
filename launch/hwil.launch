@@ -2,7 +2,7 @@
 <launch>
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
   <!-- Controller Launches. Beyondtesla control and CBF -->
-  <node pkg="beyondtesla" type="beyondtesla" name="beyondtesla" output="screen">
+  <node pkg="beyondtesla" type="beyondteslaopenloop" name="beyondteslaopenloop" output="screen">
 		<remap from="/cmd_accel" to="/cmd_accel_pre"/>
 		<remap from="/ego_vel" to="/car/state/vel_x"/>
 	</node>
