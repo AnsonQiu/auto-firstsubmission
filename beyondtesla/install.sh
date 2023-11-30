@@ -8,7 +8,7 @@ echo " - Installing ROS packages for beyondtesla..."
 
 LIBPANDA_SRC=$(cat /etc/libpanda.d/libpanda_src_dir)
 LIBPANDA_USER=$(cat /etc/libpanda.d/libpanda_usr)
-LAUNCH_FILE=beyondtesla.launch
+LAUNCH_FILE=hwil.launch
 
 source /home/$LIBPANDA_USER/.bashrc
 
