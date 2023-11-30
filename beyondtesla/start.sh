@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "=========================="
-echo "Starting App beyondtesla for {APP_PRETTY_NAME}"
+echo "Starting App beyondtesla for Beyond Tesla"
 
 
 systemctl start beyondtesla

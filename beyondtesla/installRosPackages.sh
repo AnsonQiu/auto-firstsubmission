@@ -7,7 +7,7 @@ if [[ $EUID == 0 ]];
   exit
 fi
 
-echo "Installing/Updating {APP_NAME_PRETTY} packages"
+echo "Installing/Updating Beyond Tesla packages"
 
 source ~/.bashrc
 
